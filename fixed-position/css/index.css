@@ -1,0 +1,83 @@
+html {
+	position: relative;
+}
+
+body {
+    margin: 0;
+	background: #eed8bd;
+	color: #866030;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.5;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+	list-style-type: none;
+	list-style: none;
+	list-style-image: none;
+}
+
+.nav {
+	background-color: #f9ebdb;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 6em;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+}
+
+.main-nav {
+	display: flex;
+	margin: 0 1em 0 auto;
+}
+
+.main-nav li {
+	padding: 1em;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #866030;
+}
+
+.content {
+	background: #f3e3cf;
+    padding: 6em 0 0;
+}
+
+.banner {
+	background: center top transparent no-repeat url(../images/HomepageBanner.jpg);
+	background-size: contain;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 50em;
+}
+
+.page-content {
+	background: #eed8bd;
+	margin-top: 19em;
+	padding: 0.5em 15% 0;
+	position: relative;
+}
