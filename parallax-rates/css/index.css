@@ -1,0 +1,137 @@
+html {
+	position: relative;
+}
+
+body {
+	background: #eed8bd;
+	color: #866030;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	position: relative;
+}
+
+.nav {
+	background-color: #f9ebdb;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 6em;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.5;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+	list-style-type: none;
+	list-style: none;
+	list-style-image: none;
+}
+
+.main-nav {
+	display: flex;
+	margin: 0 1em 0 auto;
+}
+
+.main-nav li {
+	padding: 1em;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #866030;
+}
+
+#about-html {
+	overflow: hidden;
+}
+
+.parallax {
+	margin-top: 6em;
+	perspective: 300px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.parallax__layer {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	background-size: contain;
+	position: absolute;
+	right: -3%;
+	bottom: 0;
+	left: -3%;
+}
+
+.parallax__layer--05 {
+	transform: translateZ(0);
+	background-image: url(../images/image5.png);
+	top: 2em;
+}
+
+.parallax__layer--04 {
+	transform: translateZ(-150px) scale(1.52);
+	background-image: url(../images/image4.png);
+	top: 6em;
+}
+
+.parallax__layer--03 {
+	transform: translateZ(-300px) scale(2.03);
+	background-image: url(../images/image3.png);
+	top: 10em;
+}
+
+.parallax__layer--02 {
+	transform: translateZ(-450px) scale(2.52);
+	background-image: url(../images/image2.png);
+	top: 14em;
+}
+
+.parallax__layer--01 {
+	transform: translateZ(-600px) scale(3.05);
+	background-image: url(../images/image1.png);
+	top: 18em;
+}
+
+.page-content {
+	background: #866030;
+	position: relative;
+	margin-top: -850px;
+	color: white;
+	padding: 0 15%;
+	z-index: 50;
+}
+
+.group {
+	position: relative;
+	height: 1500px;
+}
+
+.title {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
