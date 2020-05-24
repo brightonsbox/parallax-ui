@@ -1,0 +1,16 @@
+.banner {
+  background: center top transparent no-repeat url(photo.jpg);
+  background-size: contain;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50em;
+}
+
+.page-content {
+  background: #eed8bd;
+  margin-top: 19em;
+  padding: 0.5em 15% 0;
+  position: relative;
+}
